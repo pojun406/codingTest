@@ -1,0 +1,17 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û£å^8‘®öşÅ2J$883daa55-ba91-48fa-8762-6b82f4ce3285
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›œğù8‘®öşÅ2J$8efc7596-02c4-4f9e-9cd6-3150ae1b218c
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ää®ó8‘®öşÅ2J$93e1d3bd-cc50-4ede-b1ba-6b912120ec75
+z
+java:S2589*"7Remove this expression which always evaluates to "true"(¯«Å8‘®öşÅ2J$7ec6f15c-339f-4c74-8945-09908d06b752
+}
+java:S1854"5Remove this useless assignment to local variable "t".(Éùï•üÿÿÿÿ8”®öşÅ2J$c9b24fd9-e9dc-4b09-bb85-f61d7fcf9d95
+ƒ
+java:S1854 ";Remove this useless assignment to local variable "success".(Áƒ–ûÿÿÿÿ8”®öşÅ2J$f14bc100-6e19-47a8-8cb8-75de295b9f34
+n
+java:S1481"&Remove this unused "t" local variable.(Éùï•üÿÿÿÿ8”®öşÅ2J$9f420b50-9214-4129-8b47-1dfc63ea0ed3
+t
+java:S1481",Remove this unused "success" local variable.(à¬Ë­ûÿÿÿÿ8”®öşÅ2J$ead1718a-28bf-4e77-99b5-c278635b031a
+m	java:S106("+Replace this use of System.out by a logger.(¢Ğ¼€8”®öşÅ2J$c9f79dfe-1356-4499-9bad-5a0e73166186
+r	java:S106)"+Replace this use of System.out by a logger.(€¬¤¼ÿÿÿÿÿ8•®öşÅ2J$b5bd891f-61f7-4879-a5b8-c85212b21780
+k	java:S108*")Either remove or fill this block of code.(¯«Å8•®öşÅ2J$896d8373-c928-4b4b-abcf-a3f823af21ec

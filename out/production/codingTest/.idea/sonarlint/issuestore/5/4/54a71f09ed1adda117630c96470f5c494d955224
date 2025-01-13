@@ -1,0 +1,13 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û£å^8íÿğùÅ2J$12a3fc1a-8583-484b-8a2a-67263c009476
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÈÍ8îÿğùÅ2J$de5f9ead-9a27-468f-9f47-01c9e7a1aff2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ää®ó8îÿğùÅ2J$c5da2a0c-4c9f-4529-a1f4-ba6055561294
+‚
+java:S1854"?Remove this useless assignment to local variable "FULL_HEALTH".(øÈÍ8ñÿğùÅ2J$0082e894-27db-4337-be24-9eda3a627e80
+v
+java:S1172".Remove this unused method parameter "bandage".(Û‘ÇÇşÿÿÿÿ8ñÿğùÅ2J$d1d3ca3f-1a4d-4b1b-8309-d6a937ec30bc
+k
+java:S1481"(Remove this unused "cnt" local variable.(¢ó¢‰8ñÿğùÅ2J$892b2040-3454-4c1c-8dc8-948784865f35
+s
+java:S1481"0Remove this unused "FULL_HEALTH" local variable.(øÈÍ8ñÿğùÅ2J$686180b1-b53e-46be-b08a-9fa02379e16f
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ëÂñùÅ2
