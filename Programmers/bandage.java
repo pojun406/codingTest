@@ -1,6 +1,6 @@
 package Programmers;
 
-public class bandage {
+public class bandage { // 진행 시간 : 1일
     public static void main(String[] args) {
         bandage obj = new bandage();
         obj.solution(obj.band, obj.heal, obj.attacks);
@@ -18,32 +18,38 @@ public class bandage {
         int t = bandage[0];
         int x = bandage[1];
         int y = bandage[2];
+
         int FULL = health;
-        int success = 0;
-        int dmg = 0;
-        boolean hit = false;
-        int answer = 0;
-        int turn = attacks[attacks.length-1][0];
+        int successSkill = 0;
 
-        for (int i = 0; i <= turn; i++) {
-            for (int j = 0; j < attacks.length; j++) {
-                if(i == attacks[j][0]){
-                    hit = true;
-                    success = 0;
-                    dmg = attacks[j][1];
+        int lastTurn = attacks[attacks.length-1][0];
+        int attackTurn = 0;
+
+        for(int turn = 0; turn <= lastTurn; turn++){
+            if(turn == attacks[attackTurn][0]){
+                health -= attacks[attackTurn][1];
+                if(health <= 0){
+                    return -1;
                 }
-            }
-
-            if(hit){
-                health -= dmg;
-                hit = false;
-                System.out.println("데미지 : " + dmg);
-                System.out.println("잔여 HP : " + health);
-            } else if((health > FULL || health + x >= FULL || health + x + y >= FULL) && !hit){
+                attackTurn++;
+                successSkill = 0;
+            }else{
+                if(health >= FULL){
+                    health = FULL;
+                    successSkill++;
+                }else{
+                    health += x;
+                    successSkill++;
+                    if(successSkill == t){
+                        health += y;
+                        System.out.println("추가체력회복");
+                        successSkill = 0;
+                    }
+                    System.out.println("체력 회복 : " + health);
+                }
 
             }
         }
-
-        return answer;
+        return health;
     }
 }
